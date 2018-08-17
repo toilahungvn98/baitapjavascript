@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+	<script>
+		function upper_lower(str) {
+			if (str.length < 3) {
+				return str.toUpperCase();
+			}
+			front_part = (str.substring(0, 3)).toLowerCase();
+			back_part = str.substring(3, str.length);  
+			return front_part + back_part;
+		}
+		console.log(upper_lower("python"));
+		console.log(upper_lower("py"));
+		console.log(upper_lower("JAVASCRIPT"));
+
+	</script>
+</body>
+</html>

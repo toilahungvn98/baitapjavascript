@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>check is string start "Java"</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<!-- Viết chương trình JavaScript để kiểm tra xem chuỗi có bắt đầu bằng 'Java' hay không. -->
+
+	<script>
+		function myJava(str) {
+			if (str.length < 4 ) {
+				return false; 
+			}		
+			front = str.substring(0, 4);
+			if (front == 'Java') {
+				return true;
+
+			} else {
+
+				return false;
+			}
+		}
+
+		console.log(myJava("JavaScript"));
+		console.log(myJava("ssJava"));
+		console.log(myJava("Java"));
+		console.log(myJava("abc"));
+	</script>
+</body>
+</html>
