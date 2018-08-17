@@ -1,2 +1,2 @@
 # baitapjavascript
-bai tap javascript tham khao tren w3resource.com
+cac bai tap javascript tham khao tren w3resource.com
